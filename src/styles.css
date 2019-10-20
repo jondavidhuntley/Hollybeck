@@ -1,0 +1,109 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+
+.boxshadow
+{
+	-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);        
+}
+
+.boxcommon
+{
+	background-color:#fff;
+	border:solid 1px #cdcdcd;
+	border-radius:10px;	
+	
+    margin:3px;
+    padding:13px;
+}
+
+.boxcommongrey
+{
+	background-color:#fff;
+	border:solid 1px #cdcdcd;	
+	
+	 border-bottom-right-radius:10px;
+    -moz-border-bottom-right-radius:10px;
+    -webkit-border-bottom-right-radius:10px;
+    
+     border-top-left-radius:10px;
+    -moz-border-top-left-radius:10px;
+    -webkit-border-top-left-radius:10px;
+    
+	-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    
+    margin:3px;
+    padding:13px;
+}
+
+.boxerror
+{
+	background-color:#fff;
+	border:solid 2px #f00;
+	border-radius:10px;
+	max-width:280px;
+	
+	-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    
+    margin:3px;
+    padding:13px;
+     
+    position:fixed;
+    z-index:100;
+    top:30%;
+    left:50%;
+    margin:-50px 0 0 -200px;
+    width:400px;
+    min-height:120px;	
+}
+
+.boxmessage
+{
+	background-color:#fff;
+	border:solid 2px #006600;
+	border-radius:10px;
+	max-width:280px;
+	
+	-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    
+    margin:3px;
+    padding:13px;
+    
+    position:fixed;
+    z-index:100;
+    top:30%;
+    left:50%;
+    margin:-50px 0 0 -200px;
+    width:400px;
+    min-height:120px;	
+}
+
+.progressbox
+{
+	padding:30px; 
+	min-height:50px; 
+	text-align:center; 
+	border: solid 1px #218C90; 
+	border-radius:4px;
+	background:#fff; 
+	z-index:20000;
+	
+	-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+    
+    position:fixed;
+    z-index:100;
+    top:50%;
+    left:50%;
+    margin:-50px 0 0 -200px;
+    width:400px;
+    min-height:120px;	
+}
