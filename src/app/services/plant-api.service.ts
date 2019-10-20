@@ -30,7 +30,7 @@ export class PlantApiService {
       );
 
     const data: Plant[] = [
-      new Plant(10011, 'Rose', 'Guns and Roses for all occasions', true),
+      new Plant(10011, 'Rose', 'Guns or Roses for all occasions', true),
       new Plant(10022, 'Tulip', 'Tulips from Amsterjam', true)
     ];
 
